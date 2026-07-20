@@ -1,7 +1,7 @@
 import os
 
 # Fix: Set the PROJ database path before importing libraries that use pyproj
-os.environ["PROJ_DATA"] = r"D:\VS-file\Digitization\env\Library\share\proj"
+# os.environ["PROJ_DATA"] = r"D:\VS-file\Digitization\env\Library\share\proj"
 
 import matplotlib
 matplotlib.use("Agg")  # Force non-interactive backend BEFORE anything else imports
