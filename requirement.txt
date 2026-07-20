@@ -1,8 +1,0 @@
-streamlit
-folium
-streamlit-folium
-osmnx
-geopandas
-matplotlib
-shapely
-geopy
